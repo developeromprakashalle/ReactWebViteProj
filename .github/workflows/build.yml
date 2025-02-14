@@ -17,12 +17,12 @@ jobs:
       - run: npm run build
       - uses: actions/upload-artifact@v4
         with:
-          name: ReactWebVite
+          name: ReactWebViteBuild
           path: dist
-          retention-days: 1
+          retention-days: 10
 
       - uses: actions/upload-artifact@v4
         with:
-          name: ReactWebVite
+          name: ReactWebViteBuild
           path: dist
-          retention-days: 1
+          retention-days: 10
