@@ -20,9 +20,3 @@ jobs:
           name: ReactWebViteBuild
           path: dist
           retention-days: 10
-
-      - uses: actions/upload-artifact@v4
-        with:
-          name: ReactWebViteBuild
-          path: dist
-          retention-days: 10
